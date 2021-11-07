@@ -255,7 +255,7 @@ export default {
       },
 
       // service data
-      validationService: null,
+      validationService: new ValidationService(),
       service: {
         InputType,
         Countries,
@@ -422,9 +422,7 @@ export default {
     },
 
     validateForm(data) {
-      this.validationService = new ValidationService(data, this.validation);
-
-      return this.validationService.checkOverallData();
+      return this.validationService.checkOverallData(data, this.validation);
     },
 
     sendData() {

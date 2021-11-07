@@ -3,12 +3,7 @@ import Vue from "vue";
 export default class ValidationService {
   validation;
   data;
-
-  constructor(data, validation) {
-    this.data = data;
-    this.validation = validation;
-  }
-
+  
   checkFormItem(name) {
     const validation = this.validation[name];
     const value = this.data[name];
@@ -31,7 +26,9 @@ export default class ValidationService {
     return false;
   }
 
-  checkOverallData() {
+  checkOverallData(data, validation) {
+    this.data = data;
+    this.validation = validation;
     let isError = false;
     const fields = Object.keys(this.data);
 
