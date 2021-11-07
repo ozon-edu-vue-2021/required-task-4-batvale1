@@ -81,15 +81,6 @@
     "flag": "🇪🇨"
   },
   {
-    "id": 8399,
-    "uid": "f48971c3-9f6d-4770-9767-9658b7a1dcf9",
-    "nationality": "Australians",
-    "language": "Russian",
-    "capital": "Jakarta",
-    "national_sport": "kabaddi",
-    "flag": "🇬🇾"
-  },
-  {
     "id": 5725,
     "uid": "32e291ac-8a5a-47b0-915a-24ea12fe38bd",
     "nationality": "Americans",
@@ -232,15 +223,6 @@
     "capital": "Belgrade",
     "national_sport": "soccer",
     "flag": "🇬🇱"
-  },
-  {
-    "id": 9227,
-    "uid": "9fbfddc3-98f8-4448-a7c3-b0d6cf47b15e",
-    "nationality": "Sudanese",
-    "language": "Telugu",
-    "capital": "Malabo",
-    "national_sport": "hockey",
-    "flag": "🇪🇨"
   },
   {
     "id": 3961,
